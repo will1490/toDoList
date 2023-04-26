@@ -1,0 +1,84 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+:root {
+    --main-bg-color: white;
+  }
+
+body {
+    max-width: 1300px;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-shadow: 3px 2px red;
+  
+}
+h2 {
+  text-decoration: underline;
+}
+#date {
+    color:orangered;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    background-image: url("./images/toDoListImage.jpg");
+    background-size: contain;
+    height: 200px;
+}
+h2 {
+  color: green;
+}
+#addTask {
+  font-size: larger;
+  color:dodgerblue
+}
+#add-item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

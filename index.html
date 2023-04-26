@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"  href="./images/favicon (1).ico">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" defer src="./form.js"></script>
+    <script type="module" defer src="./script.js"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <container>
+        <div class="header">
+            <h1>To Do List</h1>
+            <div class="clear">
+                <p class="todo-refresh"></p>
+            </div>
+        </div>
+        <main>
+            <div id="date"></div>
+            <h2>Liste des tâches</h2>
+            <ul id="taskList">
+                <li class="list-item">
+                    <p class="text"></p>
+                    <input type="checkbox" class="checkbox" id="checkbox-{{task-id}}" />
+                    <button class="delete-btn" id="delete-{{task-id}}">Delete</button>
+                  </li>
+            </ul>
+            <br>
+            <button id="delete-completed-tasks">Delete Completed Tasks</button>
+            <br>
+
+            <form id="add-item">
+                <label>Nouvelle tâche : </label>
+                <input id="taskInput" type="text" placeholder="Ajouter une tâche" />
+                <button type="submit" id="addTask">Ajouter</button>
+            </form>
+        </main>
+        <footer></footer>
+    </container>
+</body>
+</html>
