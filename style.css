@@ -42,6 +42,7 @@ body {
     font-size: 20px;
     color: black;
     overflow: hidden;
+    text-align: center;
 }
 
 h1 {
@@ -60,21 +61,27 @@ h2 {
 }
 #date {
     color:orangered;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header {
     background-image: url("./images/toDoListImage.jpg");
-    background-size: contain;
-    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 h2 {
   color: green;
 }
 #addTask {
-  font-size: larger;
-  color:dodgerblue
+  background-color: green;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50%; 
+  width: 120px; 
 }
 #add-item {
   position: absolute;
@@ -82,3 +89,19 @@ h2 {
   left: 0;
   right: 0;
 }
+#taskList {
+  background-color: white;
+  width: 75% auto;
+}
+#delete-completed-tasks {
+  background-color: red;
+  color: black;
+  font-weight: 800;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50%; 
+  width: 120px;
+
+}
+

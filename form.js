@@ -10,7 +10,7 @@ const currentDate = new Date();
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
 // Création d'un nouvel objet Intl.DateTimeFormat avec les options de formatage
-const dateFormatter = new Intl.DateTimeFormat('fr-FR', options);
+const dateFormatter = new Intl.DateTimeFormat('en', options);
 
 // Formatage de la date
 const formattedDate = dateFormatter.format(currentDate);
