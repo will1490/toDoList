@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon"  href="./images/favicon (1).ico">
     <link rel="stylesheet" href="./style.css">
-    <script type="module" defer src="./form.js"></script>
+    <script type="module" defer src="./addNewTask.js"></script>
+    <script type="module" defer src="./updateList.js"></script>
+    <script type="module" defer src="./checkboxes.js"></script>
+    <script type="module" defer src="./deleteButtonElements.js"></script>
+    <script type="module" defer src="./deleteCompletedTasksButton.js"></script>
     <script type="module" defer src="./script.js"></script>
     <title>To Do List</title>
 </head>
@@ -29,10 +33,10 @@
                   </li>
             </ul>
             <br>
-            <button id="delete-completed-tasks">Delete Completed Tasks</button>
+            <button id="deleteCompletedTasks">Delete Completed Tasks</button>
             <br>
 
-            <form id="add-item">
+            <form id="addTaskForm">
                 <label>New task : </label>
                 <input id="taskInput" type="text" placeholder="Add a task" />
                 <button type="submit" id="addTask">Add</button>

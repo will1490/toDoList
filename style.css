@@ -83,7 +83,7 @@ h2 {
   border-radius: 50%; 
   width: 120px; 
 }
-#add-item {
+#addTaskForm {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -93,7 +93,7 @@ h2 {
   background-color: white;
   width: 75% auto;
 }
-#delete-completed-tasks {
+#deleteCompletedTasks {
   background-color: red;
   color: black;
   font-weight: 800;
