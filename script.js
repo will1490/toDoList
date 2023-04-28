@@ -34,10 +34,10 @@ function init() {
 
 init();
 
-const storedList = JSON.parse(localStorage.getItem("listItem"));
+const storedList = JSON.parse(localStorage.getItem("tasks"));
 
 window.addEventListener("load", () => {
-  const storedList = JSON.parse(localStorage.getItem("listItem"));
+  const storedList = JSON.parse(localStorage.getItem("tasks"));
   if (storedList) {
     tasks.splice(0, tasks.length, ...storedList);
     updateList();
